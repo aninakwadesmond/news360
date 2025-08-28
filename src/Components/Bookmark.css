@@ -1,0 +1,55 @@
+.bookmark {
+  height: auto;
+}
+.bookmark-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+.bookmark-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.bookmark-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+  cursor: pointer;
+}
+.bookmark-item h3 {
+  color: #fff;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.bookmark-item img {
+  width: 5rem;
+  aspect-ratio: 1;
+  border-radius: 0.6rem;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+.delete-btn {
+  font-size: 2rem;
+  color: #b88efc;
+}
+.icon {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  color: #fff;
+  z-index: 20000000;
+}
+.fa-circle-xmark {
+  position: relative;
+}
+.delete-bookmark i {
+  position: relative;
+  top: 0;
+  right: 0;
+  font-size: 2rem;
+}
